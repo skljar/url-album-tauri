@@ -1,0 +1,8 @@
+{
+  "name": "url-album",
+  "version": "0.1.0",
+  "scripts": {
+    "dev":   "cargo tauri dev",
+    "build": "cargo tauri build"
+  }
+}

@@ -1,0 +1,30 @@
+# Rust / Cargo
+src-tauri/target/
+src-tauri/gen/
+
+# App data & user files
+album.db
+album.db-shm
+album.db-wal
+browsers.json
+toolbar.json
+settings.json
+Data/
+
+# Original UA files
+ua.dat
+ua.dat.bak
+ua.dll
+ua.htm
+ua.ini
+urlalbum.exe
+urlalbum.chm
+urlalbum.ini
+default.jpg
+License.rtf
+desktop.ini
+
+# Dev / editor
+.claude/
+screenshots/
+*.log
