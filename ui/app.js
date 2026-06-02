@@ -3932,10 +3932,28 @@ function navigateToResult(result) {
     return;
   }
   if (result.parent == null) return;
-  clearSearchUI();
-  searchEl.value = "";
   const node = allNodes.find(n => n.id === result.id) || result;
-  navigateToCard(node);
+  searchEl.value = "";
+  searchClearBtn.classList.remove("visible");
+  clearTimeout(searchTimer);
+  searchResults = [];
+  activeResultIdx = -1;
+  if (node.parent != null) {
+    expandTreePath(node.parent);
+    // expandTreePath only opens ancestors of node.parent, not node.parent itself —
+    // open it explicitly so the bookmark leaf is visible in the tree
+    const parentItem = treeEl.querySelector(`.tree-item[data-id="${node.parent}"]`);
+    if (parentItem) {
+      const ch = parentItem.parentElement?.querySelector(":scope > .tree-children");
+      if (ch) { ch.classList.add("open"); parentItem.classList.add("open"); }
+    }
+  }
+  _activateTreeItem(node);
+  requestAnimationFrame(() => {
+    treeEl.querySelector(`.tree-item[data-id="${node.id}"]`)
+      ?.scrollIntoView({ block: "nearest" });
+  });
+  openDetailView(node);
 }
 
 async function doSearch(q, fields = { title: true, url: true, note: true }) {
