@@ -4,11 +4,15 @@
 
 Идейный наследник классического URL Album — простой и удобный менеджер закладок, который хранит всё локально, без облака и без слежки.
 
-![Главное окно](https://github.com/skljar/url-album-2/releases/download/v2.0-beta/01-overview.png)
+![Главное окно](screenshots/main-window.png)
 
-![Список ссылок с иконками](https://github.com/skljar/url-album-2/releases/download/v2.0-beta/02-links-favicons.png)
+![Карточка ссылки со скриншотом сайта](screenshots/link-card.png)
 
-![Карточка ссылки со скриншотом сайта](https://github.com/skljar/url-album-2/releases/download/v2.0-beta/03-detail-view.png)
+![Поиск](screenshots/search.png)
+
+![Настройки](screenshots/settings.png)
+
+![Настройка тулбара](screenshots/toolbar.png)
 
 ---
 
