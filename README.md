@@ -18,7 +18,7 @@
 
 ## ⬇ Скачать
 
-Релиз готовится. Следите за [releases](https://github.com/skljar/url-album-tauri/releases).
+**[URL-Album-2.0-beta.zip (3.7 MB)](https://github.com/skljar/url-album-tauri/releases/latest/download/URL-Album-2.0-beta.zip)**
 
 Требования: **Windows 10 / 11** (64-bit) — WebView2 уже встроен.
 
