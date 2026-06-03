@@ -18,7 +18,7 @@
 
 ## ⬇ Скачать
 
-**[URL-Album-2.0-beta.zip (3.7 MB)](https://github.com/skljar/url-album-2/releases/latest/download/URL-Album-2.0-beta.zip)**
+Релиз готовится. Следите за [releases](https://github.com/skljar/url-album-tauri/releases).
 
 Требования: **Windows 10 / 11** (64-bit) — WebView2 уже встроен.
 
@@ -113,7 +113,7 @@ Data\favicons\    ← кэш иконок
 
 ## Статус: Beta
 
-Программа в активной разработке. Баги и пожелания — в [Issues](https://github.com/skljar/url-album-2/issues).
+Программа в активной разработке. Баги и пожелания — в [Issues](https://github.com/skljar/url-album-tauri/issues).
 
 ### Пока не реализовано
 - Восстановление из резервной копии
